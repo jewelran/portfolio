@@ -28,6 +28,28 @@
     color:orange;
     font-size: 28px;
 }
+button{
+    padding: 10px 30px;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.4s ease;
+    margin-top: 40px;
+}
+button a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition:all 0.3s ease;
+}
+button:hover{
+    background-color: orange;
+
+}
+button a:hover{
+    color:black;
+}
 .img{
     width: 48%;
     height: 350px;
